@@ -56,11 +56,6 @@ def get_turnir(html):
 	del ul[0]
 	return ul
 
-
-
-
-
-
 def main():
 	url = 'https://news.sportbox.ru/Vidy_sporta/Hokkej'
 	html = get_html(url)
