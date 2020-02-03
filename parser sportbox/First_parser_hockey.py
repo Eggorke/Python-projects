@@ -70,7 +70,7 @@ def main():
 	result_date_nTime = []
 	championat_result = []
 
-	print("Сейчас я покажу тебе уличную магию и все топовые хоккейные матчи")
+	print("Начинаем парсить хоккей")
 	print()
 	end_programm = []
 
@@ -117,10 +117,11 @@ def main():
 		final_result = result_teams[i] + " " + result_scores[i] + " / " + result_date_nTime[i] + " / " + championat_result[i]
 		end_programm.append(final_result)
 		i += 1
-		print("  " + final_result)
-		print()
-	input()	
-		
+		# print("  " + final_result)
+		# print()
+	# input()
+	print('Закончили парсить хоккей')	
+	return end_programm
 
 
 
